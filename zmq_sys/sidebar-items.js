@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["errno",""]],"type":[["RawFd","Raw file descriptors."],["zmq_free_fn",""],["zmq_msg_t",""],["zmq_pollitem_t",""]]});
