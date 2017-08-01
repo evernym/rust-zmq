@@ -17,7 +17,7 @@ fn main() {
     match target.find("-windows-") {
         Some(..) => {
             // do not build c-code on windows, use binaries
-            let prebuilt_dir = env::var("SOVRIN_PREBUILT_DEPS_DIR").unwrap();
+            let prebuilt_dir = env::var("ZMQPW_PREBUILT_DEPS_DIR").unwrap();
             println!("cargo:rustc-link-search=native={}", prebuilt_dir);
             println!("cargo:rustc-flags=-L {}/lib \
                   -l zmq-pw \
